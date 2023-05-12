@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("https://quick-chat-swaw.onrender.com");
 
 var message = document.getElementById("message");
 var handle = document.getElementById("handle");
